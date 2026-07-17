@@ -1,0 +1,36 @@
+h1{
+    text-align:center;
+    text-decoration:wavy red underline;
+    font-size:39px;
+    font-family:arial;
+    
+}
+h3{
+    text-align:right;
+    /* right >> end */
+    text-decoration: green line-through;
+    font-size:25px;
+}
+p{
+    text-align:justify;
+    /* left >> start */
+    font-weight:normal;
+    /* normal = 400 */
+    line-height:2.5;
+    font-size: 15px;
+    font-family: Papyrus, fantasy;
+}
+h2{
+    font-weight:700;
+    /* bold = 700 */
+    text-decoration:double pink overline;
+    letter-spacing:5px;
+    font-family: Optima;
+}
+a{
+    color:rgb(8, 129, 20);
+    font-weight:700;
+    text-decoration:none;
+    letter-spacing:10px;
+
+}
