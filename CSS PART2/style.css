@@ -1,0 +1,102 @@
+*{
+    font-family:'Courier New'; /* universal selector */
+}
+h3{
+    background-color:antiquewhite !important;
+}
+h1,h3{
+    color:#b92b27;
+}
+
+#login{
+    background-color:white;
+}
+
+#signup{
+    background-color:#b92b27;
+    color:white;
+}
+
+.upvote{
+    background-color:green;
+    color:aliceblue;
+}
+
+/* descendent selector */
+.post a{
+    color:purple;
+    background-color:yellow;
+}
+
+nav ul li a{
+    color:pink;
+}
+
+/* Adjacent Sibling Combinator */
+p + h3{
+    text-decoration:underline;
+}
+.upvote+button{
+    background-color:rgb(183, 183, 243);
+    color:darkblue;
+}
+
+/* Child Combinator */
+
+div > input{
+    background-color:rgb(169, 191, 227);
+}
+
+/* Attribute Selcector */
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color:red;
+}
+input[type]{
+    background-color:rgb(201, 210, 210);
+}
+
+/* Pseudo Class */
+button:hover{
+    background-color:black;
+    color:white;
+}
+h3:hover{
+    text-decoration:none;
+}
+button:active{
+    background-color:pink;
+    color:black;
+}
+p:active{
+    font-weight:bold;
+    color:green;
+}
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+}
+.post:nth-of-type(2n){
+    background-color:antiquewhite;
+}
+
+/* Pseudo Element */
+
+h1::first-letter{
+    color:black;
+}
+#myId p::first-line{
+        color:rgb(238, 32, 67);
+}
+#myId p::selection{
+    background-color:wheat;
+}
+h3{
+    background-color:yellow;
+}
+h3{
+    background-color:blue;
+}
