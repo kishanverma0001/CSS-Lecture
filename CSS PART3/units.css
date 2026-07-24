@@ -1,0 +1,27 @@
+h1{
+    background-color:bisque;
+    width:50%;
+}
+#outer{
+    height:400px;
+    width:400px;
+    background-color:pink;
+    margin:50px;
+    font-size:20px;
+}
+#inner{
+    height:100px;
+    width:100px;
+    background-color:cornflowerblue;
+    margin-left:10%;
+    font-size:2em;
+    padding:1em;
+}
+button{
+    font-size:50px;
+    border-radius:20px;
+    border:5px solid green;
+    /* padding-left:20px;
+    padding-right:20px; */
+    padding:0.4em;
+}

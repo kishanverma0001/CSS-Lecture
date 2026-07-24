@@ -1,0 +1,16 @@
+/* h2{
+    display:inline;
+    background-color:rgb(135, 199, 199);
+}
+span{
+    display:block;
+    background-color:rgb(103, 190, 105);
+} */
+span{
+    background-color:rgb(75, 161, 203);
+    border:2px solid black;
+    height:100px;
+    width:30px;
+    padding:50px; /* left and right*/
+    margin:20px; /* left and right*/
+}
